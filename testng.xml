@@ -1,4 +1,7 @@
-<<suite name="Loan Department" parallel="tests" thread-count="6">
+<suite name="Loan Department" parallel="tests" thread-count="6">
+<listeners>
+    <listener class-name="TEST.Listeners"/>
+</listeners>
 
 <test name="Personal loan">
 
